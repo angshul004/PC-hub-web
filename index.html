@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navigation bar -->
+    <header>
+        <h1 class="logo">PC Hub</h1>
+        <nav>
+            <ul class="nav__links">
+                <li><a href=”#”>Home</a></li>
+                <li>
+                    <a href="#">Motherboards</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Gigabyte</a></li>
+                        <li><a href="#">MSI</a></li>
+                    </ul> 
+                </li>
+                <li>
+                    <a href="#">CPU</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Intel</a></li>
+                        <li><a href="#">AMD Ryzen</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">GPU</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Nvidia</a></li>
+                        <li><a href="#">AMD Radeon</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact us</a> </li>
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button>Profile</button></a>
+    </header>
+    <!-- content -->
+    <main>
+        <section class="intro">
+            <div class="intro-text">
+                <h2>Find the <span>best</span> PC Components</h2>
+                <p>Explore our wide range of high-quality PC parts, from motherboards to GPUs. Whether you're building a new rig or upgrading, we have everything you need!</p>
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search components by brand or model" class="search-bar">
+                    <button type="button" id="searchButton" class="search-button">Search</button>
+                </div>                
+            </div>
+            <div class="intro-image">
+                <img src="pc-image.png" alt="PC Components">
+            </div>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
